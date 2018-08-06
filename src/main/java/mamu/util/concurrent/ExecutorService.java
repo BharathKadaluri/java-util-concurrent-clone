@@ -72,4 +72,19 @@ public interface ExecutorService extends Executor {
     // Status checks
     //***********************************************************************
 
+    /**
+     *  Check if the termination has happened, i.e all the tasks have been
+     *  completed following shutdown
+     *
+     *  @return {@code true} if the tasks have been completed
+     */
+    boolean isTerminated();
+
+
+    /**
+     * Check if shutdown has been initiated
+     *
+     * @return {@code true} if the shutdown has been initiated.
+     */
+    boolean isShutdown();
 }

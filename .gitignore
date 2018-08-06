@@ -1,0 +1,14 @@
+
+#Gradle 
+.gradle/
+
+
+#IDE
+.idea/
+*.iml
+
+#APP
+
+*.log
+*.properties
+*.swp

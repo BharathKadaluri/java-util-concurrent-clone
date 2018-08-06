@@ -23,7 +23,7 @@ public class FutureTask<T> implements RunnableFuture<T> {
     private static final int EXCEPTIONAL = 3;
     private static final int CANCEL = 4;
     private static final int INTERRUPTING = 5;
-    private static final int INTERRUPTED= 5;
+    private static final int INTERRUPTED= 6;
 
 
     //Runnable AsycTask

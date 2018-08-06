@@ -68,6 +68,8 @@ public interface ExecutorService extends Executor {
     List<Runnable> shutDownNow();
 
 
-
+    //***********************************************************************
+    // Status checks
+    //***********************************************************************
 
 }
